@@ -1,4 +1,13 @@
 #!/bin/bash
+FILE=visitorsAmongThePeople
+if test -f "$FILE"; then
+        rm $FILE 
+fi
+
+FILE=staffAmongThePeople
+if test -f "$FILE"; then
+        rm $FILE 
+fi
 
 username="personsPresent"
 
